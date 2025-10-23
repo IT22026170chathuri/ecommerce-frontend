@@ -46,7 +46,7 @@ const Cart: React.FC = () => {
 
         
       <h1 style={{ marginBottom: '15px', color: "#222", textAlign: "center" }}>
-        Shopping Cart
+        Shopping Cart..
       </h1>
 
       <div
