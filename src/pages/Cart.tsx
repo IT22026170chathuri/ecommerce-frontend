@@ -25,7 +25,7 @@ const Cart: React.FC = () => {
   };
 
   const handleClear = () => {
-    if (confirm("Are you sure you want to clear the cart?")) {
+    if (confirm("Are you sure you want to clear the cart.?")) {
       clearCart();
     }
   };
