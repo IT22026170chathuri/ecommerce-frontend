@@ -68,7 +68,7 @@ const Admin = () => {
         <Input
           label="Stock"
           type="number"
-          {...register('stock', { required: 'Stock is required', min: 0 })}
+          {...register('stock', { required: 'Stock is required.', min: 0 })}
           error={errors.stock?.message}
         />
         <Button type="submit">{editingId ? 'Update' : 'Add'} Product</Button>
