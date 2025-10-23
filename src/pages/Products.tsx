@@ -42,7 +42,7 @@ const Products = () => {
           color: '#333',
         }}
       >
-        Our Products
+        Our Products..
       </h1>
 
       {/* Search + Filter Controls */}
