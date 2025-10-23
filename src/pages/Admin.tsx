@@ -36,7 +36,7 @@ const Admin = () => {
 
   return (
     <div style={{ padding: '2rem' }}>
-      <h1>Admin - Product Management</h1>
+      <h1>Admin - Product Management.</h1>
       
       <form onSubmit={handleSubmit(onSubmit)} style={{ marginBottom: '2rem' }}>
         <Input
