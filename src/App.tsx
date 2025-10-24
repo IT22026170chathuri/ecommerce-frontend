@@ -1,13 +1,13 @@
-import { Route, Routes } from 'react-router-dom';
-import Navbar from './components/layout/Navbar';
-import Admin from './pages/Admin';
-import Cart from './pages/Cart';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Products from './pages/Products';
+import Cart from './pages/Cart';
+import Admin from './pages/Admin';
+import Navbar from './components/common/Navbar';
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -15,7 +15,7 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/admin" element={<Admin />} />
       </Routes>
-    </>
+    </BrowserRouter>
   );
 }
 
