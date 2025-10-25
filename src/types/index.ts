@@ -16,4 +16,9 @@ export interface User {
   id: number;
   name: string;
   role: 'admin' | 'customer';
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> ab860c0da138d4a83ee7a72361e12c2b489401cc
